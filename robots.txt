@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AdMob / authorized sellers crawlers must reach app-ads.txt at domain root
+Allow: /app-ads.txt

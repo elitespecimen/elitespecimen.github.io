@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FaithLifting — Entraînement & foi</title>
+  <meta
+    name="description"
+    content="FaithLifting : application chrétienne de fitness. Entraînements, dévotions, jeûne, recettes et communauté."
+  />
+  <meta name="theme-color" content="#14201a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand-mark" href="/">
+      <strong>FaithLifting</strong>
+      <span>App</span>
+    </a>
+    <nav class="nav-links" aria-label="Navigation">
+      <a href="#apropos">À propos</a>
+      <a href="#legal">Légal</a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.faithlifting.app"
+        rel="noopener noreferrer"
+        >Google Play</a
+      >
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Accueil FaithLifting">
+      <div class="hero-inner">
+        <h1 class="hero-brand">FaithLifting</h1>
+        <p class="hero-line">
+          Entraîne le corps, nourris l’esprit. Workouts, Bible, jeûne, recettes et
+          une communauté qui t’accompagne.
+        </p>
+        <div class="cta-row">
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=com.faithlifting.app"
+            rel="noopener noreferrer"
+            >Télécharger sur Google Play</a
+          >
+          <a class="btn btn-ghost" href="#legal">Politique & conditions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apropos">
+      <div class="section-inner">
+        <h2>Une app, une mission</h2>
+        <p class="lead">
+          FaithLifting réunit fitness et vie de foi : programmes d’entraînement,
+          dévotions, outils de jeûne, recettes inspirées et partage en communauté.
+        </p>
+        <ul class="feature-list">
+          <li>
+            <strong>Entraînements</strong>
+            <span>Séances guidées, historiques et progression au quotidien.</span>
+          </li>
+          <li>
+            <strong>Foi</strong>
+            <span>Versets, prières, notes et pratiques spirituelles intégrées.</span>
+          </li>
+          <li>
+            <strong>Communauté</strong>
+            <span>Posts, amis, groupes d’église et rendez-vous locaux.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section legal" id="legal">
+      <div class="section-inner">
+        <h2>Informations légales</h2>
+        <p class="lead">
+          Documents officiels de l’application FaithLifting (éditeur Elite Specimen).
+        </p>
+        <ul class="legal-links">
+          <li>
+            <a href="https://elitespecimen.github.io/faithlifting-legal/privacy-policy.html"
+              >Politique de confidentialité</a
+            >
+          </li>
+          <li>
+            <a href="https://elitespecimen.github.io/faithlifting-legal/terms-of-service.html"
+              >Conditions d’utilisation</a
+            >
+          </li>
+          <li>
+            <a href="https://play.google.com/store/apps/details?id=com.faithlifting.app"
+              rel="noopener noreferrer"
+              >Fiche Google Play</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="y"></span> FaithLifting · Elite Specimen</p>
+      <p>
+        Contact :
+        <a href="mailto:liftingwithfaith@gmail.com">liftingwithfaith@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>
